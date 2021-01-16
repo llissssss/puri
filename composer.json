@@ -1,0 +1,28 @@
+{
+  "name": "llissssss/puri",
+  "description": "Basic URI manipulation",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Llissssss\\Puri\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Llissssss\\Puri\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "albert.casadessus",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.*"
+  }
+}
